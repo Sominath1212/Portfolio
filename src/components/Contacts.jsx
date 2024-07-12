@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contacts() {
   return (
-    <div name="contacts" className='items-center  flex flex-col  bg-[#6DAFFE] pb-3 w-sceen h-screen justify-center pt-20'>
+    <div name="contacts" className='items-center  flex flex-col  bg-[#6DAFFE] pb-3 w-sceen  justify-center pt-20'>
 
       <h2 className='text-3xl text-gray-700'>Contact Me</h2>
       <form action="https://formspree.io/f/xoqggokk"
