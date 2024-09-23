@@ -93,7 +93,7 @@ function Projects() {
           {
             minorProjects.map((mp, i) => {
               return (
-                <div className=' drop-shadow-md border space-y-4 p-5 self-center min-h-48   rounded-lg max-w-[300px]  ' key={i}>
+                <div className=' hover:scale-110 transition-all duration-700 drop-shadow-md border space-y-4 p-5 self-center min-h-48   rounded-lg max-w-[300px]  ' key={i}>
                   <h1 className='text-md font-bold uppercase'>{mp?.title}</h1>
                   <p className='text-sm font-thin text-gray-700 line-clamp-2'>{mp?.description}</p>
                   <p>Tech Stack:{mp?.Techstack}</p>
