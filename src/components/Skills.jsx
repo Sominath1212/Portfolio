@@ -19,8 +19,10 @@ function Skills() {
 
 
     <div name="skills" className='top-[3rem]  p-5  bg-[#6DAFFE]  pt-[3.8rem]'>
+      <hr className=' h-[1px] mb-3' />
       <h1 className='text-4xl text-gray-700  '>SKILLS:</h1>
-      <h2 className='text-[#437fc7] text-3xl'>FRONTED:</h2>
+      <hr className=' h-[1px] my-3' />
+      <h2 className='text-[#437fc7] text-3xl my-2 underline'>FRONTED:</h2>
       <div className='grid md:grid-cols-5 grid-cols-2 gap-4 '>
         <Cart name={"HTML"} image={HTMLIcon} percentage={90} />
         <Cart name={"CSS 3"} image={CSSIcon} percentage={60} />
@@ -29,7 +31,7 @@ function Skills() {
         <Cart name={"REACT JS"} image={ReactIcon} percentage={56} />
 
       </div>
-      <h2 className='text-[#437fc7] text-3xl'>
+      <h2 className='text-[#437fc7] text-3xl my-2 underline'>
         BACKEND:
       </h2>
 
@@ -40,13 +42,13 @@ function Skills() {
         <Cart name={"DSA"} image={DSAIcon} percentage={40} />
 
       </div>
-      <h2 className='text-[#437fc7] text-3xl'>OTHER TOLLS:</h2>
+      <h2 className='text-[#437fc7] text-3xl my-2 underline'>OTHER TOLLS:</h2>
       <div className='grid md:grid-cols-5 grid-cols-2 gap-4 '>
         <Cart name={"VS CODE"} image={VSCODEIcon} percentage={100} />
         <Cart name={"GIT "} image={GITIcon} percentage={100} />
         <Cart name={"GITHUB "} image={GITHUBIcon} percentage={100} />
       </div>
-      <h2 className='text-[#437fc7] text-3xl'>DATABASE:</h2>
+      <h2 className='text-[#437fc7] text-3xl my-2 underline'>DATABASE:</h2>
       <div className='grid md:grid-cols-5 grid-cols-2 gap-4 '>
 
         <Cart name={"MY SQL "} image={DATABASEIcon} percentage={100} />

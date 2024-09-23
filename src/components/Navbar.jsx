@@ -45,7 +45,7 @@ function Navbar() {
                         <span className="absolute bottom-0 right-0 w-full  -mb-1 -mr-1 transition-all duration-700 ease-linear bg-white rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
                     </Link>
                 </ul>
-                <IoSettingsSharp className='cursor-pointer' />
+                
             </div>
             {
                 toggle ? <IoCloseSharp className='block md:hidden' onClick={() => { setToggle(false) }} />

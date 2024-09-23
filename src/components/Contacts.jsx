@@ -3,8 +3,9 @@ import React from 'react'
 function Contacts() {
   return (
     <div name="contacts" className='items-center  flex flex-col  bg-[#6DAFFE] pb-3 w-sceen  justify-center pt-20'>
-
+      <hr className=' h-[1px] mb-3' />
       <h2 className='text-3xl text-gray-700'>Contact Me</h2>
+      <hr className=' h-[1px] mb-3' />
       <form action="https://formspree.io/f/xoqggokk"
         method="POST" className=" pb-5 flex flex-col text-center items-center w-[30rem]
 h-full  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100

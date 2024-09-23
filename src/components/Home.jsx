@@ -26,7 +26,7 @@ function Home() {
         <h1 className='text-5xl my-4' >I'am <span className='text-[#437fc7]'>Sominath</span></h1>
         <span className='text-[#437fc7] text-2xl'>{text} <Cursor /> </span>
         <br />
-        <a href="#_" className=" my-4 relative inline-flex items-center px-1 py-1 overflow-hidden text-lg font-medium text-[#3d5676] border-2 border-gray-700 rounded-full hover:text-white group hover:bg-gray-50">
+        <a href="#" className=" my-4 relative inline-flex items-center px-1 py-1 overflow-hidden text-lg font-medium text-[#3d5676] border-2 border-gray-700 rounded-full hover:text-white group hover:bg-gray-50">
           <span className="absolute left-0 block w-full h-0 transition-all bg-[#6DAFFE] opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
           <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
 
@@ -35,9 +35,9 @@ function Home() {
         </a>
         <span className='flex text-xl gap-4'>
 
-          <a href="https://www.instagram.com/_s_patil12/"><FaInstagramSquare className='hover:scale-95  duration-300 hover:animate-bounce' /></a>
-          <a href="linkedin.com/in/sominath-girnare-b1761b26a"> <FaLinkedin className='hover:scale-95  duration-300 hover:animate-bounce' /></a>
-          <a href='https://linkedin.com/in/sominath-girnare-b1761b26a'><FaGithub className='hover:scale-95  duration-300 hover:animate-bounce' /></a>
+          <a href="https://www.instagram.com/_s_patil12/" target="_blank"><FaInstagramSquare className='hover:scale-95  duration-300 hover:animate-bounce' /></a>
+          <a href="linkedin.com/in/sominath-girnare-b1761b26a" target="_blank"> <FaLinkedin className='hover:scale-95  duration-300 hover:animate-bounce' /></a>
+          <a href='https://github.com/Sominath1212' target="_blank"><FaGithub className='hover:scale-95  duration-300 hover:animate-bounce' /></a>
         </span>
       </div>
 

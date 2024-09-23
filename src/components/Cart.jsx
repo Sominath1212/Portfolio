@@ -11,7 +11,7 @@ export default function Cart(props) {
     return (
         <>
             <div
-                className="relative w-36 h-44 border-[0.5px] hover:scale-75 duration-300 rounded-lg shadow-lg overflow-hidden mx-auto"
+                className="relative w-36 h-44 border-[0.5px] hover:scale-110 duration-300 rounded-lg shadow-lg overflow-hidden mx-auto"
                 onMouseEnter={() => setHidden(false)}
                 onMouseLeave={() => setHidden(true)}
             >
